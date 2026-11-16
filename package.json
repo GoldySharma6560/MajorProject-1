@@ -1,13 +1,14 @@
 {
   "engines": {
-    "node": "v24.18.0"
+    "node": "24.18.0"
   },
   "name": "nestora",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Nestora - Property Listing Website",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
